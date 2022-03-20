@@ -16,7 +16,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        primary: ['Inter', ...fontFamily.sans],
+        primary: ['Futura', 'Inter', ...fontFamily.sans],
       },
       colors: {
         primary: {
@@ -58,6 +58,14 @@ module.exports = {
       animation: {
         flicker: 'flicker 3s linear infinite',
         shimmer: 'shimmer 1.3s linear infinite',
+      },
+      screens: {
+        xs: '200px',
+        sm: '640px',
+        md: '768px',
+        lg: '1024px',
+        xl: '1280px',
+        '2xl': '1536px',
       },
     },
   },

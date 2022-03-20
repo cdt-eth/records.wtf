@@ -1,6 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url(//db.onlinewebfonts.com/c/a6303fd87015a70ec40ce68391f5f344?family=ITC+Clearface);
+@import url(//db.onlinewebfonts.com/c/6b051836cfd27b68866998b31f3c8813?family=ITC+Clearface);
 
 :root {
   /* #region  /**=========== Primary Color =========== */
@@ -39,6 +41,35 @@
     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
       U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212,
       U+2215, U+FEFF, U+FFFD;
+  }
+  @font-face {
+    font-family: 'ITC Clearface';
+    src: url('//db.onlinewebfonts.com/t/a6303fd87015a70ec40ce68391f5f344.eot');
+    src: url('//db.onlinewebfonts.com/t/a6303fd87015a70ec40ce68391f5f344.eot?#iefix')
+        format('embedded-opentype'),
+      url('//db.onlinewebfonts.com/t/a6303fd87015a70ec40ce68391f5f344.woff2')
+        format('woff2'),
+      url('//db.onlinewebfonts.com/t/a6303fd87015a70ec40ce68391f5f344.woff')
+        format('woff'),
+      url('//db.onlinewebfonts.com/t/a6303fd87015a70ec40ce68391f5f344.ttf')
+        format('truetype'),
+      url('//db.onlinewebfonts.com/t/a6303fd87015a70ec40ce68391f5f344.svg#ITC Clearface')
+        format('svg');
+  }
+
+  @font-face {
+    font-family: 'ITC Clearface';
+    src: url('//db.onlinewebfonts.com/t/6b051836cfd27b68866998b31f3c8813.eot');
+    src: url('//db.onlinewebfonts.com/t/6b051836cfd27b68866998b31f3c8813.eot?#iefix')
+        format('embedded-opentype'),
+      url('//db.onlinewebfonts.com/t/6b051836cfd27b68866998b31f3c8813.woff2')
+        format('woff2'),
+      url('//db.onlinewebfonts.com/t/6b051836cfd27b68866998b31f3c8813.woff')
+        format('woff'),
+      url('//db.onlinewebfonts.com/t/6b051836cfd27b68866998b31f3c8813.ttf')
+        format('truetype'),
+      url('//db.onlinewebfonts.com/t/6b051836cfd27b68866998b31f3c8813.svg#ITC Clearface')
+        format('svg');
   }
 
   .cursor-newtab {
@@ -95,6 +126,9 @@
   /* Class to adjust with sticky footer */
   .min-h-main {
     @apply min-h-[calc(100vh-56px)];
+  }
+  .name {
+    font-family: 'Clearface';
   }
 }
 

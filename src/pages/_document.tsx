@@ -23,6 +23,17 @@ class MyDocument extends Document {
             type='font/woff2'
             crossOrigin='anonymous'
           />
+
+          <link
+            href='//db.onlinewebfonts.com/c/a6303fd87015a70ec40ce68391f5f344?family=ITC+Clearface'
+            rel='stylesheet'
+            type='text/css'
+          />
+          <link
+            href='//db.onlinewebfonts.com/c/6b051836cfd27b68866998b31f3c8813?family=ITC+Clearface'
+            rel='stylesheet'
+            type='text/css'
+          />
         </Head>
         <body>
           <Main />

@@ -10,7 +10,12 @@ export default function HomePage() {
   return (
     <Layout>
       <Seo />
-      <div className='mb-6 w-full bg-[#f7f4ec] px-12 pb-6 pt-12'>
+      <p className='name text-center text-2xl font-bold bg-[#134097] text-[#EBE9DE] py-2'>
+        {' '}
+        records.wtf
+      </p>
+      {/* <div className='mb-6 w-full bg-[#f7f4ec] px-12 pb-6 pt-6'> */}
+      <div className='mb-6 w-full bg-[#EBE9DE] px-12 pb-6 pt-10'>
         <Search />
       </div>
 

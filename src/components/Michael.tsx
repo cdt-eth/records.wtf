@@ -1,5 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
-import { recordsState, searchState } from 'atoms';
+import { michaelToggledState, recordsState, searchState } from 'atoms';
 import React, { useEffect, useState } from 'react';
 import { useRecoilState, useRecoilValue } from 'recoil';
 import { v4 as uuidv4 } from 'uuid';
@@ -12,6 +12,7 @@ const Michael = () => {
   const [mikeyAlbums, setMikeyAlbums] = useRecoilState(recordsState);
   const searchValue = useRecoilValue(searchState);
   const [results, setResults] = useState(mikey);
+  const showMichaelOnly = useRecoilValue(michaelToggledState);
 
   useEffect(() => {
     console.log('ran');
@@ -31,12 +32,19 @@ const Michael = () => {
   }, [mikeyAlbums, searchValue]);
 
   return (
-    <div className='w-1/2 text-[#134097]'>
+    <div className={`  ${showMichaelOnly ? 'w-full' : 'w-1/2'} text-[#134097]`}>
       <div className='pb-5 text-4xl font-semibold name text-left px-1'>
         michael.
       </div>
+
       {results && results.length > 0 ? (
-        <div className='grid gap-4 grid-cols-2 sm:grid-cols-3'>
+        <div
+          className={`grid gap-4 ${
+            showMichaelOnly
+              ? 'grid-cols-4 sm:grid-cols-8'
+              : 'grid-cols-2 sm:grid-cols-3'
+          }`}
+        >
           {results
             .filter(
               (a) =>

@@ -13,24 +13,7 @@ const Toggle = () => {
   };
 
   return (
-    <fieldset className='space-y-5'>
-      <legend className='sr-only'>Notifications</legend>
-      <div className='relative flex items-start'>
-        <div className='flex items-center h-5'>
-          <input
-            id='comments'
-            aria-describedby='comments-description'
-            name='comments'
-            type='checkbox'
-            className='focus:ring-[#134097] h-4 w-4 text-[#134097] border-gray-300 rounded'
-          />
-        </div>
-        <div className='ml-3 text-sm'>
-          <label htmlFor='comments' className='font-medium text-gray-700'>
-            Both
-          </label>
-        </div>
-      </div>
+    <fieldset className=' flex items-center gap-6 '>
       <div className='relative flex items-start'>
         <div className='flex items-center h-5'>
           <input
@@ -39,11 +22,11 @@ const Toggle = () => {
             name='candidates'
             type='checkbox'
             onClick={handleClick}
-            className='focus:ring-[#134097] h-4 w-4 text-[#134097] border-gray-300 rounded'
+            className='focus:ring-[#EBE9DE] h-4 w-4 text-[#161616] border-[#EBE9DE] rounded'
           />
         </div>
-        <div className='ml-3 text-sm'>
-          <label htmlFor='candidates' className='font-medium text-gray-700'>
+        <div className='ml-1.5 text-sm'>
+          <label htmlFor='candidates' className='font-medium  text-[#EBE9DE]'>
             Michael
           </label>
         </div>
@@ -56,11 +39,11 @@ const Toggle = () => {
             aria-describedby='offers-description'
             name='offers'
             type='checkbox'
-            className='focus:ring-[#134097] h-4 w-4 text-[#134097] border-gray-300 rounded'
+            className='focus:ring-[#EBE9DE] h-4 w-4 text-[#161616] border-[#EBE9DE] rounded'
           />
         </div>
-        <div className='ml-3 text-sm'>
-          <label htmlFor='offers' className='font-medium text-gray-700'>
+        <div className='ml-1.5 text-sm'>
+          <label htmlFor='offers' className='font-medium  text-[#EBE9DE]'>
             Christian
           </label>
         </div>

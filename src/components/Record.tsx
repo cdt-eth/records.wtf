@@ -1,7 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 import React from 'react';
 
-interface RecordProps {
+export interface RecordProps {
   title: string;
   artist: string;
 }

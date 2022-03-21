@@ -1,5 +1,5 @@
 import React from 'react';
-import { uuid as v4 } from 'uuidv4';
+import { v4 as uuidv4 } from 'uuid';
 
 import Record from '@/components/Record';
 
@@ -11,9 +11,9 @@ const Christian = () => {
       <div className='pb-5 text-4xl font-semibold name text-left px-1'>
         christian.
       </div>
-      <div className='xs:grid-cols-2 grid gap-4 sm:grid-cols-3'>
+      <div className='grid gap-4 grid-cols-2 sm:grid-cols-3'>
         {cdt.map((album) => (
-          <Record key={v4()} title={album.title} artist={album.artist} />
+          <Record key={uuidv4()} title={album.title} artist={album.artist} />
         ))}
       </div>
     </div>

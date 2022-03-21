@@ -6,7 +6,7 @@ import { v4 as uuidv4 } from 'uuid';
 
 import Record from '@/components/Record';
 
-import mikey from '../pages/api/micahel.json';
+import mikey from '../pages/api/michael.json';
 
 const Michael = () => {
   const [mikeyAlbums, setMikeyAlbums] = useRecoilState(recordsState);
@@ -41,7 +41,7 @@ const Michael = () => {
         <div
           className={`grid gap-4 ${
             showMichaelOnly
-              ? 'grid-cols-4 sm:grid-cols-8'
+              ? 'grid-cols-4 sm:grid-cols-6'
               : 'grid-cols-2 sm:grid-cols-3'
           }`}
         >
@@ -57,6 +57,7 @@ const Michael = () => {
                 key={uuidv4()}
                 title={album.title}
                 artist={album.artist}
+                cover={album.cover}
               />
             ))}
         </div>

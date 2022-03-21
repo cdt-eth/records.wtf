@@ -1,0 +1,322 @@
+[
+  {
+    "title": "An Awesome Wave",
+    "artist": "Alt-J (Δ)",
+    "cover": "awesomewave.jpg"
+  },
+  {
+    "title": "This Is All Yours",
+    "artist": "Alt-J (Δ)",
+    "cover": "allyours.jpeg"
+  },
+  {
+    "title": "Break It Yourself",
+    "artist": "Andrew Bird",
+    "cover": "breakit.png"
+  },
+  {
+    "title": "Swim Inside the Moon",
+    "artist": "Angelo De Augustine",
+    "cover": "moon.jpg"
+  },
+  {
+    "title": "March of the Zapotec & Realpeople Holland",
+    "artist": "Beirut",
+    "cover": "zapotec.png"
+  },
+  {
+    "title": "(self-titled)",
+    "artist": "boygenius",
+    "cover": "boygenius.jpeg"
+  },
+  {
+    "title": "STN MTN / Kauai",
+    "artist": "Childish Gambino",
+    "cover": "stnmtn.png"
+  },
+  {
+    "title": "Loyalty to Loyalty (10\")",
+    "artist": "Cold War Kids",
+    "cover": "loyalty.jpeg"
+  },
+  {
+    "title": "Niobrara",
+    "artist": "Coyote Bones",
+    "cover": "niobrara.jpeg"
+  },
+  {
+    "title": "Dead Mans Bones",
+    "artist": "Dead Mans Bones",
+    "cover": "dead.jpg"
+  },
+  {
+    "title": "Halcyon Digest",
+    "artist": "Deerhunter",
+    "cover": "halcyon.jpg"
+  },
+  {
+    "title": "Fading Frontier",
+    "artist": "Deerhunter",
+    "cover": "fading.jpeg"
+  },
+  {
+    "title": "(self-titled)",
+    "artist": "Dirty Projectors",
+    "cover": "dp.webp"
+  },
+  {
+    "title": "Views",
+    "artist": "Drake",
+    "cover": "views.jpeg"
+  },
+  {
+    "title": "I Love You, Honeybear",
+    "artist": "Father John Misty",
+    "cover": "honeybear.jpg"
+  },
+  {
+    "title": "Crack-Up",
+    "artist": "Fleet Foxes",
+    "cover": "crackup.jpeg"
+  },
+  {
+    "title": "(self-titled)",
+    "artist": "Fleet Foxes",
+    "cover": "foxes.jpeg"
+  },
+  {
+    "title": "Acoustic Sessions",
+    "artist": "Ghost of a Sabertooth Tiger",
+    "cover": "saber.jpg"
+  },
+  {
+    "title": "Live on KCRW (7\")",
+    "artist": "Grizzly Bear",
+    "cover": "kcrw.jpeg"
+  },
+  {
+    "title": "Honey Moon (7\")",
+    "artist": "Haruomi Hosono / Mac Demarco",
+    "cover": "demarco.jpeg"
+  },
+  {
+    "title": "(self-titled)",
+    "artist": "Horse Jumper of Love",
+    "cover": "jumper.webp"
+  },
+  {
+    "title": "The Shepherd's Dog",
+    "artist": "Iron & Wine",
+    "cover": "dog.jpeg"
+  },
+  {
+    "title": "Greatest Hits",
+    "artist": "James Taylor",
+    "cover": "jtaylor.jpg"
+  },
+  {
+    "title": "Quiet Signs",
+    "artist": "Jessica Pratt",
+    "cover": "pratt.webp"
+  },
+  {
+    "title": "Ys",
+    "artist": "Joanna Newsom",
+    "cover": "ys.jpeg"
+  },
+  {
+    "title": "Room for Squares",
+    "artist": "John Mayer",
+    "cover": "squares.jpeg"
+  },
+  {
+    "title": "Introducing Juan Pablo",
+    "artist": "Juan Wauters",
+    "cover": "introducing.webp"
+  },
+  {
+    "title": "City Music",
+    "artist": "Kevin Morby",
+    "cover": "morby.webp"
+  },
+  {
+    "title": "Con Todo El Mundo",
+    "artist": "Khruangbin",
+    "cover": "khruangbin.jpeg"
+  },
+  {
+    "title": "Texas Sun",
+    "artist": "Khruangbin",
+    "cover": "leon.webp"
+  },
+  {
+    "title": "Masana Temples",
+    "artist": "Kikagaku Moyo",
+    "cover": "kikagaku.jpg"
+  },
+  {
+    "title": "Mechanical Bull",
+    "artist": "Kings of Leon",
+    "cover": "bull.webp"
+  },
+  {
+    "title": "Bad Self Portraits",
+    "artist": "Lake Street Dive",
+    "cover": "lakestreet.jpg"
+  },
+  {
+    "title": "Absolute Zero",
+    "artist": "Little Green Cars",
+    "cover": "zero.jpeg"
+  },
+  {
+    "title": "The John Wayne - Single (7\")",
+    "artist": "Little Green Cars",
+    "cover": "wayne.jpeg"
+  },
+  {
+    "title": "Lonesome Dreams",
+    "artist": "Lord Huron",
+    "cover": "huron.jpg"
+  },
+  {
+    "title": "Mean Everything to Nothing",
+    "artist": "Manchester Orhestra",
+    "cover": "everything.jpeg"
+  },
+  {
+    "title": "The Lonesome Crowded West",
+    "artist": "Modest Mouse",
+    "cover": "west.jpeg"
+  },
+  {
+    "title": "Z",
+    "artist": "My Morning Jacket",
+    "cover": "z.jpeg"
+  },
+  {
+    "title": "Something Wild",
+    "artist": "Radiator Hospital",
+    "cover": "wild.jpeg"
+  },
+  {
+    "title": "Oblangle Fizz Y'all",
+    "artist": "Reptar",
+    "cover": "fizz.jpeg"
+  },
+  {
+    "title": "And The War Came",
+    "artist": "Shakey Graves",
+    "cover": "war.jpeg"
+  },
+  {
+    "title": "Greatest Hits",
+    "artist": "Simon & Garfunkel",
+    "cover": "simon.jpg"
+  },
+  {
+    "title": "Bookends",
+    "artist": "Simon & Garfunkel",
+    "cover": "garf.jpg"
+  },
+  {
+    "title": "Actor",
+    "artist": "St Vincent",
+    "cover": "actor.jpeg"
+  },
+  {
+    "title": "Aja",
+    "artist": "Steely Dan",
+    "cover": "aja.jpeg"
+  },
+  {
+    "title": "Dots and Loops (Expanded Edition)",
+    "artist": "Stereolab",
+    "cover": "stereo.jpg"
+  },
+  {
+    "title": "A Sailor's Guide to Earth",
+    "artist": "Sturgill Simpson",
+    "cover": "strug.webp"
+  },
+  {
+    "title": "Wild Smile",
+    "artist": "Suckers",
+    "cover": "suckers.jpeg"
+  },
+  {
+    "title": "Illinois",
+    "artist": "Sufjan Stevens",
+    "cover": "suf.webp"
+  },
+  {
+    "title": "Greetings From Michigan The Great Lake State",
+    "artist": "Sufjan Stevens",
+    "cover": "michigan.jpeg"
+  },
+  {
+    "title": "A Beginner's Mind",
+    "artist": "Sufjan Stevens & Angelo De Augustine",
+    "cover": "mind.webp"
+  },
+  {
+    "title": "Cashmere",
+    "artist": "Swet Shop Boys",
+    "cover": "swet.webp"
+  },
+  {
+    "title": "Innerspeaker",
+    "artist": "Tame Impala",
+    "cover": "inner.jpg"
+  },
+  {
+    "title": "Live Versions",
+    "artist": "Tame Impala",
+    "cover": "tame.jpg"
+  },
+  {
+    "title": "Currents",
+    "artist": "Tame Impala",
+    "cover": "curr.jpg"
+  },
+  {
+    "title": "Brothers and Sisters",
+    "artist": "The Allman Brothers Band",
+    "cover": "bro.jpg"
+  },
+  {
+    "title": "The Good Ones (7\")",
+    "artist": "The Kills",
+    "cover": "good.jpeg"
+  },
+  {
+    "title": "(self-titled)",
+    "artist": "The White Stripes",
+    "cover": "white.jpg"
+  },
+  {
+    "title": "Creaturesque",
+    "artist": "Throw Me The Statue",
+    "cover": "creaturesque.jpeg"
+  },
+  {
+    "title": "Sand Through an Asphalt Hourglass",
+    "artist": "Tir Asleen",
+    "cover": "sand.jpeg"
+  },
+  {
+    "title": "(self-titled)",
+    "artist": "Vampire Weekend",
+    "cover": "vampire.jpg"
+  },
+  {
+    "title": "180° South: Original Soundtrack",
+    "artist": "Various Artists",
+    "cover": "180.jpeg"
+  },
+  {
+    "title": "Greatest Hits (& Some That Will Be)",
+    "artist": "Willie Nelson",
+    "cover": "willie.jpg"
+  }
+]
